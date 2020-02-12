@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs",
+    "#minecraft:planks",
+    "#minecraft:wool",
+    "#forge:dirt",
+    "#forge:glass",
+    "#forge:ores",
+    "#forge:sand"
+  ]
+}
