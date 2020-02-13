@@ -1,10 +1,7 @@
 package com.tfar.randomblock;
 
 import com.mojang.datafixers.Dynamic;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.FlowingFluidBlock;
+import net.minecraft.block.*;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.tags.Tag;
 import net.minecraft.util.math.BlockPos;
@@ -39,6 +36,7 @@ public class RandomBlocksSurfaceBuilder extends SurfaceBuilder<SurfaceBuilderCon
               && blockstate2.getBlock() !=
       Blocks.BEDROCK) {
         BlockState state = getRandom(ExampleMod.whitelist);
+        if (state.has(LeavesBlock.PERSISTENT))state= state.with(LeavesBlock.PERSISTENT,true);
           if (state.has(BlockStateProperties.WATERLOGGED)) state = state.with(BlockStateProperties.WATERLOGGED, false);
           chunkIn.setBlockState(blockpos$mutable, state, false);
       }

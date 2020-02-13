@@ -2,19 +2,28 @@
   "replace": false,
   "values": [
     "minecraft:crafting_table",
+    "minecraft:ice",
+    "minecraft:snow_block",
+
+    "#minecraft:anvil",
     "#minecraft:leaves",
     "#minecraft:logs",
     "#minecraft:planks",
     "#minecraft:wool",
-    "#minecraft:slabs",
-    "#minecraft:stairs",
     "#forge:cobblestone",
+    "#forge:concrete",
+    "#forge:concrete_powder",
     "#forge:dirt",
+    "#forge:end_stones",
     "#forge:glass",
+    "#forge:glazed_terracotta",
+    "#forge:netherrack",
+    "#forge:obsidian",
     "#forge:ores",
     "#forge:sand",
     "#forge:sandstone",
-    "forge:stone",
-    "#forge:storage_blocks"
+    "#forge:stone",
+    "#forge:storage_blocks",
+    "#forge:terracotta"
   ]
 }
