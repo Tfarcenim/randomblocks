@@ -1,12 +1,20 @@
 {
   "replace": false,
   "values": [
+    "minecraft:crafting_table",
+    "#minecraft:leaves",
     "#minecraft:logs",
     "#minecraft:planks",
     "#minecraft:wool",
+    "#minecraft:slabs",
+    "#minecraft:stairs",
+    "#forge:cobblestone",
     "#forge:dirt",
     "#forge:glass",
     "#forge:ores",
-    "#forge:sand"
+    "#forge:sand",
+    "#forge:sandstone",
+    "forge:stone",
+    "#forge:storage_blocks"
   ]
 }
